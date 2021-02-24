@@ -1,0 +1,22 @@
+url: 'https://ferienhaus-timpete.com'
+baseurl: '' 
+sass:
+  style: compressed
+plugins:
+  - jekyll-coffeescript
+  
+title: 'Ferienhaus TimpeTe'
+description: > # this means to ignore newlines until "email:"
+  Am Breetzer Bodden 1a,
+  18569 Vieregge
+
+email: 'k.pfeiffer@ibpfeiffer.de'
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
+logo: 'logo.jpg'
+
